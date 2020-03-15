@@ -10,7 +10,7 @@ class Anagram
     retarray = []
     matcharray.each do |match|
       matchtest = match.split("")
-      if (@word & matchtest == @word) #&& (@word & matchtest == matchtest))
+      if (@word & matchtest == @word) && (@word & matchtest == matchtest)
         then retarray << match end
     end
     retarray
