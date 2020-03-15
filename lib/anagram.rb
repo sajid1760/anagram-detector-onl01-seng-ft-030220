@@ -13,6 +13,8 @@ class Anagram
     end
     retarray
   end  
+  
+end 
       
     
   listen = Anagram.new("listen")
