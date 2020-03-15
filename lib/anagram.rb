@@ -9,7 +9,7 @@ class Anagram
   def match(matcharray)
     retarray = []
     matcharray.each do |match|
-      if @word & match.split("") = @word then retarray << match end
+      if (@word & match.split("")) == @word then retarray << match end
     end
     retarray
   end  
